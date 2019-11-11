@@ -1,139 +1,244 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-align: center;
-  color: rgb(215, 243, 243);
+body{
+  border-style: solid;
+  
+  }
+  
+  main{
+      background-color: rgb(247, 11, 196);
+      width:  960px;
+      margin-right: auto;
+      margin-left:auto;
+      height: 700px;
+      position: relative;
+  }
+
+  h1 {
+    color: dimgray;
+  }
+  
+  .a {
+
+      background-color: rgb(211, 82, 179);
+      height: 100px;
+      width: 960px;
+      vertical-align: middle;
+      text-align: center;
+      line-height: 100px;
+  }
+
+
+  .b {
+      background-color: rgb(161, 16, 96);
+      vertical-align: middle;
+      float: left;
+      width: 200px;
+      height: 600px;
+      text-align: center;
+      line-height: 600px;
+  }
+  .part2{
+    background-color: rgb(243, 13, 166);
+    display: inline-block;
+      width: 760px;
+      height: 200px;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 200px;
+  }
+
+
+
+  .c {
+      width: 380px;
+      height: 200px;
+      background-color: rgb(158, 59, 117);
+
+  }
+
+
+
+  .d {
+      background-color: rgb(240, 122, 224);
+      width: 380px;
+      height: 200px;
+      top: 0;
+      left: 380px;
+      position: absolute;
+
+  
+  }
+  .part3{
+    background-color: mediumorchid;
+    display: inline-block;
+    height: 250px;
+    width: 760px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
 }
-
-.container{
-  width: 960px;
-  margin: 0 auto;
-  height: auto;
-}
-
-header{
-  width: 960px;
-  height: 100px;
-  background-color: rgb(192, 8, 121);
-  line-height: 100px;
-  color: black;
-  size: 20px;
-
-}
-
-aside{
-  width: 200px;
-  height: 600px;
-  float: left;
-  background-color: rgb(233, 115, 203);
-  line-height: 600px;
-  border-color: royalblue 5px;
-  color: black;
-  size: 20px;
-
-}
-main{
-  width: 760px;
-  float: right;
-  color: black;
-  size: 20px;
-
-}
-
-article{
-  width: 760px;
-  height: 200px;
-  color: black;
-  size: 20px;
-}
-
-article div{
-  width: 380px;
-  height: 200px;
-  float: left;
-  line-height: 200px;
-  color: black;
-  size: 20px;
-
-}
-article div:first-child{
-  background-color: rgb(240, 61, 150);
-  color: black;
-  size: 20px;
-
-}
-article div:last-child{
-  background-color: rgb(148, 17, 109);
-  color: black;
-  size: 20px;
-
-}
-
-section{
-  width: 760px;
-  height: 250px;
-  border: red 5px;
-  color: black;
-  size: 20px;
-
-}
-
-p{
-  width: 190px;
-  height: 250px;
-  float: left;
-  line-height: 190px;
-  border: red 5px;
-  color: black;
-  size: 20px;
+  .e{
+      background-color: rgb(230, 16, 212);
+      height: 250px;
+      width: 190px;
+  }
 
 
-}
+   .f{
+      background-color: rgb(204, 81, 163);
+      height: 250px;
+      width: 190px;
+      position: absolute;
+      top: 0;
+      left: 190px;
+  }
 
 
-p:first-child{
-  background-color: rgb(224, 131, 212);
-  border: red 5px;
-  color: black;
-  size: 20px;
-
-}
-p:nth-child(2){
-  background-color: rgb(122, 43, 63);
-  border: 5px;
-  color: black;
-  size: 20px;
+  .g{
+      background-color: rgb(236, 127, 200);
+      height: 250px;
+      width: 190px;
+      position: absolute;
+      top: 0;
+      left: 380px;
+  }
 
 
-}
-p:nth-child(3){
-  background-color: rgb(228, 15, 114);
-  border: 5px;
-  color: black;
-  size: 20px;
+  .h{
+      background-color: rgb(243, 14, 155);
+      height: 250px;
+      width: 190px;
+      position: absolute;
+      top: 0;
+      left: 570px;
+  }
 
 
 
-}
-p:last-child{
-  background-color: rgb(243, 12, 185);
-  border: 5px;
-  color: black;
-  size: 20px;
+  .i{
+      background-color: rgb(179, 43, 167);
+      height: 150px;
+      width: 760px;
+      position: absolute;
+      left: 200px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 150px;
+  }
 
-}
+
+
+  @media (max-width:480px){
+      main{
+        background-color: rgb(247, 11, 196);
+        width:  480px;
+          margin-right: auto;
+          margin-left:auto;
+          position: relative;
+    
+      }
+      .a {
+
+        background-color: rgb(211, 82, 179);
+        opacity: 1;
+          width: 480px;
+          height: 75px;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 75px;
+      }
+      .b {
+        background-color: rgb(161, 16, 96);
+        float: left;
+          width: 480px;
+          height: 150px;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 150px;
+      }
+      .part2{
+        background-color: rgb(243, 13, 166);
+        width: 480px;
+          height: 250px;
+          position: relative;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 125px;
+      }
+      .c {
+        background-color: rgb(158, 59, 117);
+        width: 480px;
+          height: 125px;
+      }
+      .d {
+        background-color: rgb(240, 122, 224);
+        width: 480px;
+          height: 125px;
+          position: absolute;
+          top: 125px;
+          left: 0;
+      }
+      .part3{
+        background-color: mediumorchid;
+        display: inline-block;
+          height: 500px;
+          width: 480px;
+          position: relative;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 240px;
+      }
+
+
+      .e{
+        background-color: rgb(230, 16, 212);
+        height: 250px;
+          width: 240px;
+      }
+
+
+       .f{
+        background-color: rgb(204, 81, 163);
+        height: 250px;
+          width: 240px;
+          position: absolute;
+          top: 0;
+          left: 240px;
+      }
 
 
 
+      .g{
+        background-color: rgb(236, 127, 200);
+        height: 250px;
+          width: 240px;
+          position: absolute;
+          top: 250px;
+          left: 0px;
+      }
 
 
-footer{
-  width: 760px;
-  height: 150px;
-  line-height: 150px;
-  background-color: rgb(99, 5, 94);
-  color: black;
-  size: 20px;
-}
+      .h{
+        background-color: rgb(243, 14, 155);
+        height: 250px;
+          width: 240px;
+          position: absolute;
+          top: 250px;
+          left: 240px;
+      }
 
+
+      
+      .i{
+        background-color: rgb(179, 43, 167);
+          height: 80px;
+          width: 480px;
+          position: absolute;
+          left: 0;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 80px;
+      }
+      
+  }
