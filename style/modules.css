@@ -1,0 +1,137 @@
+.sohad2 {
+    width: 50%;
+    line-height: 125px;
+    text-align: center; 
+   
+}
+.sohad1 {
+    width: 25%;  
+    line-height: 250px;
+    text-align: center; 
+
+
+
+
+
+} 
+.a {
+    background-color: rgba(255, 0, 0, 0.918);
+}
+.b {
+    background-color: rgba(65, 64, 63, 0.5);
+}
+.c{
+    background-color: rgba(100, 12, 17, 0.815);
+}
+.d{
+    background-color: rgba(161, 161, 161, 0.884);
+}
+.e{
+    background-color: rgb(253, 10, 10);
+}
+.f{
+    background-color:  rgb(139, 121, 121);
+}
+.g{
+    background-color: rgb(156, 51, 51);
+}
+.h{
+    background-color: rgba(53, 49, 49, 0.5);
+}
+.i{
+    background-color:  rgb(124, 8, 8);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 768px) {
+    .sohad2 {
+        width: 50%;
+        line-height: 200px;
+        text-align: center; 
+    }
+    .sohad1 {
+        width: 25%;
+        line-height: 250px;
+        text-align: center; 
+    }
+    .a {
+        background-color: rgb(0, 247, 255);
+    }
+    .b {
+        background-color: rgb(20, 77, 69);
+    }
+    .c{
+        background-color: rgb(69, 126, 118);
+    }
+    .d{
+        background-color: rgb(17, 70, 131);
+    }
+    .e{
+        background-color: rgb(55, 107, 100);
+    }
+    .f{
+        background-color:  rgb(14, 43, 66);
+    }
+    .g{
+        background-color: rgb(51, 85, 90);
+    }
+    .h{
+        background-color: rgb(10, 29, 24);
+    }
+    .i{
+        background-color:  rgb(17, 75, 60);
+    }
+
+}
+
+@media (min-width: 992px) {
+    .sohad2 {
+        width: 50%;
+        height: 50%;
+        line-height: 200px;
+        text-align: center; 
+    }
+    .sohad1 {
+        width: 25%;
+        height: 50%;
+        line-height: 250px;
+        text-align: center; 
+    }
+    .a {
+        background-color: rgba(190, 28, 128, 0.959);
+    }
+    .b {
+        background-color: rgba(71, 29, 66, 0.932);
+    }
+    .c{
+        background-color: rgba(196, 121, 179, 0.925);
+    }
+    .d{
+        background-color: rgb(136, 4, 114);
+    }
+    .e{
+        background-color: rgba(236, 149, 215, 0.938);
+    }
+    .f{
+        background-color:  rgba(151, 4, 95, 0.2);
+    }
+    .g{
+        background-color: rgb(153, 0, 255, 0.2);
+    }
+    .h{
+        background-color: rgba(155, 66, 128, 0.952);
+    }
+    .i{
+        background-color:  rgba(182, 39, 127, 0.966);
+    }
+
+}

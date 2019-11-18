@@ -1,0 +1,19 @@
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+
+  .flex-container-row {
+    display: flex;
+    flex-direction: row;
+  } 
+  .sohadColum
+  {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+  }
+
+
+
+  
